@@ -49,12 +49,12 @@ def extract_images_from_ppt(ppt_file):
                 image_bytes = shape.image.blob
                 image = Image.open(io.BytesIO(image_bytes))
                 slide_images.append(image)
-            if len(slide_images) >= 2:
-                break
+            # if len(slide_images) >= 2:
+            #     break
         
         extracted_images_from_file.extend(slide_images[:2])
-        if len(extracted_images_from_file) >= 2:
-            break
+        # if len(extracted_images_from_file) >= 2:
+        #     break
     
     return extracted_images_from_file
 
