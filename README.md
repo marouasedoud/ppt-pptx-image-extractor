@@ -9,5 +9,7 @@ This code was developed for personal use during the creation of a machine learni
 ## Notes
 
 - Ensure that the PowerPoint files are in the same directory as the script.
+- Open terminal and run this command : python fileName.py
+- After the process is done this message will appear : Extraction completed. Extracted images saved in final_file.docx.
 - Images will be saved in the same directory as the script.
 - The `final_file.docx` will contain all the extracted images.
